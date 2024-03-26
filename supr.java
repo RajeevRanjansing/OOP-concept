@@ -15,7 +15,7 @@ class B extends A{
          System.out.println(super.a);
     }
 }
-class sup
+class supr
 {
     public static void main(String args[]){
         B b1=new B();
@@ -35,7 +35,7 @@ class B extends A{
          System.out.print("Hello Rajeev");
     }
 }
-class sup{
+class supr{
     public static void main(String args[]){
         B b1=new B();
         b1.show();                                            //output is Hello Rajeev
@@ -57,7 +57,7 @@ class B extends A{
         
     }
 }
-class sup{
+class supr{
     public static void main(String args[]){
         B b1=new B();
         b1.show();                                          //output is namaste Rajeev
@@ -79,7 +79,7 @@ class y extends x{
 }
 }
 
-class sup{
+class supr{
     public static void main(String args[]){
         y y1=new y();
         y1.show();                                          //output is CSE mech
