@@ -19,7 +19,7 @@ class B extends A{
         System.out.print("value of b is "+b);
     }
 }
-class inheritance{
+class ABC{
     public static void main(String args[]){
         B b1=new B();
         b1.a=10;
