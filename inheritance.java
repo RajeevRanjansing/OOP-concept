@@ -56,7 +56,7 @@ class c extends B{
     }
 }
 
-class inheritance{
+class ABC{
     public static void main(String args[]){
         c c1=new c();
         c1.a=10;
