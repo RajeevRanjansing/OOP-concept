@@ -208,3 +208,35 @@ class name{
     }
 }
 
+//10th program
+
+class oop{
+    public static void main(String args[]){
+        name n1=new name();
+        n1.name="Rajeev";
+        n1.address="Sarigam";
+        n1.age=22;
+        n1.cgpa=8;
+        System.out.println("name is "+ n1.name);
+        System.out.println("Address is "+ n1.address);
+        System.out.println("Age is "+ n1.age);
+        System.out.print("cgpa is "+ n1.cgpa);
+
+    }
+}
+class name{
+    String name;
+    String address;
+    int age;
+    int cgpa;
+}
+
+//11th program
+
+class oop{
+    public static void main(String args[]){
+        byte a=100,b=30,c;
+        c=a+b;
+        System.out.println(c);
+    }
+}
