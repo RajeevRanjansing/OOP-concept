@@ -97,4 +97,114 @@ class child{
         System.out.println(name + " walked " + a +" steps ");
     }
 }
+//5th program
+
+class oop{
+    public static void main(String args[]){
+        person p1=new person();
+        p1.name="rajeev";
+        p1.age=22;
+        p1.cgpa=9;
+        System.out.println(p1.name +" "+ p1.age +" "+ p1.cgpa);
+    }
+}
+
+class person{
+    String name;
+    int age;
+    int cgpa;
+}
+
+//6th program
+
+class oop{
+    public static void main(String args[]){
+        void running(5);
+    }
+}
+
+int sleep(){
+    System.out.println("rajeev is walking");
+}
+
+void running(int a){
+    System.out.println("Rajeev runs daily " + a + " km ");
+}
+
+//7th program
+
+class oop{
+    public static void main(String args[]){
+        person p1=new person();
+        p1.name="rajeev singh";
+        p1.age=22;
+        p1.cgpa=9;
+        System.out.print("name is " + p1.name +"\n" + "age is "+ p1.age +"\n" + "cgpa is "+ p1.cgpa);
+    }
+}
+class person{
+    String name;
+    int age;
+    int cgpa;
+}
+
+//8th program
+
+class oop{
+    public static void main(String args[]){
+        person p1=new person();
+            p1.name="rajeev";
+            p1.age=22;
+            p1.cgpa=9;
+    
+        person p2=new person();
+        p2.name="Shashi";
+        p2.age=23;
+        p2.cgpa=8;
+
+        p1.eat();
+        p2.walk();
+        p2.walk(4);
+    }
+}
+class person{
+    String name;
+    int age;
+    int cgpa;
+
+    void walk(){
+        System.out.println(name  + "  is running");
+    }
+    void eat(){
+        System.out.println(name + "  is eating");
+    }
+
+    void walk(int steps){
+        System.out.print(name + "walked" + steps + "steps");
+    }
+}
+
+//9th program
+
+class oop{
+    public static void main(String args[]){
+        name n1=new name();
+        n1.name="Rajeev";
+        n1.age=22;
+        n1.address="Sarigam";
+        System.out.println("name is "+ n1.name);
+        System.out.println("age is "+ n1.age);
+        System.out.println("address is "+ n1.address);
+        n1.walk();
+    }
+}
+class name{
+    String name;
+    int age;
+    String address;
+
+    void walk(){
+        System.out.print(name +"is walking");
+    }
+}
 
