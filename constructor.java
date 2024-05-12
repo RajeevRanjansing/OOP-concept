@@ -59,4 +59,27 @@ class B{
     }                                                       //output is x+y=300
 }                                                           name=Akshat Rajeev
 
-                              
+
+
+//4th program
+//copy constructor=copy constructor copy the content of one object into other object by help of ref variable.     
+
+class A{
+    int a; String name;
+    A(){
+        a=10; name="Rajeev";
+        System.out.println(a+" "+name);
+    }
+    A(A ref){
+       a= ref.a;
+       name= ref.name;
+       System.out.println(a+" "+name);
+    }
+}
+class B{
+    public static void main(String args[]){
+        A a=new A();
+        A b=new A(a);
+    }                                                  //output is    10 Rajeev
+}                                                          //           10 Rajeev
+                                                                                                         
