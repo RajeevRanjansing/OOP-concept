@@ -27,8 +27,8 @@ class B{
 class A{
      int a;String name; boolean c;
     A(){
-        a=100; name="Rajeev"; c=true;          //here we are initializing the object
-    }
+        a=100; name="Rajeev"; c=true;                         //here we are initializing the object
+    }                                                         //Advantage of initializing the object is we can put any value a/c to us.
         void show(){
             System.out.println(a+" "+ name +" "+c);
         }
@@ -38,4 +38,4 @@ class B{
         A r=new A();
         r.show();
     }
-}
+}                                                             //output is 100 Rajeev true
