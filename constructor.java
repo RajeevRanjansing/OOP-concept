@@ -22,7 +22,7 @@ class B{
 
 
 //2nd program
-//Default constructor
+//Default constructor=Default constructor does not have any parameter is default constructor
 
 class A{
      int a;String name; boolean c;
