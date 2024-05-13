@@ -96,6 +96,7 @@ class x{
 
 class y extends x{
     y() {
+        //here constructor automatically write super();
     System.out.print("mech");
     }
 }
