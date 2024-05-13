@@ -86,8 +86,26 @@ class supr{
     }
 }
 
+//5th program
 
+class x{
+    x(){
+    System.out.println("CSE");
+    }
+}
 
+class y extends x{
+    y() {
+    System.out.print("mech");
+    }
+}
+
+class supr{
+    public static void main(String args[]){
+        y y1=new y();
+                                              //output is CSE mech
+    }
+}
 
 
 
