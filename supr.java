@@ -109,6 +109,31 @@ class supr{
 }
 
 
+//Note:- Incase of Default constructor, there is not necessary to write super();
+// But incase of parameterised constructor, there is compulsory to write super();
+
+//6th program
+
+class x{
+    x(int a){
+    System.out.println("CSE"+ a);
+    }
+}
+
+class y extends x{
+    y() {
+        super(100);
+    System.out.print("mech");
+    }
+}
+
+class supr{
+    public static void main(String args[]){
+        y y1=new y();
+    }                                          //output is CSE 100
+}                                                   //mech
+    
+
 
 
 
