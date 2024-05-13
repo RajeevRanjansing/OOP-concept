@@ -82,4 +82,19 @@ class B{
         A b=new A(a);
     }                                                  //output is    10 Rajeev
 }                                                          //           10 Rajeev
+
+
+//5th program
+//private constructor= In java, it is possible to write constructor as a private but according to rule, we can not access private member outside the class.
+
+class B{
+     String name; int a;
+     private B(){
+          name="Rajeev"; a=10;
+          System.out.println("My name is "+ name +" value is  "+ a);
+     }
+     public static void main(String args[]){
+          B r=new B();
+     }
+}
                                                                                                          
