@@ -1,4 +1,5 @@
 //1st program 
+//static keyword is required.
 
 class A{
     
