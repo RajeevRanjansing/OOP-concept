@@ -1,5 +1,7 @@
 //instance block 
 
+//1st program
+
 class B{
     B(){
         System.out.println("Aman");
@@ -13,4 +15,14 @@ class B{
 }                                       //output is Akash
                                             //Aman
 
-                                            
+// 2nd program
+
+class B{
+    int a=10; static int b=20;
+    {
+                System.out.println(a + " "+ b);        //we can access static and non-static variable inside instance block.
+    }
+    public static void main(String args[]){
+           B b=new B();                 //static block is executed without making object 
+        }
+}
