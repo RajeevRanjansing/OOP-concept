@@ -17,3 +17,34 @@ class B{
         r.show();
     }
 }
+
+//2nd program
+
+class B{
+    B(){
+        System.out.println("Rajeev kumar singh");
+    }
+    B(int a){
+        this();        //here this keyword is used to call the default constructor of same class
+        System.out.println(a);
+    }
+    public static void main(String args[]){
+        B b=new B(10);
+
+    }                                           //output is Rajeev kumar singh
+}                                                                    //10
+
+//3rd program
+
+class B{
+    B(){
+        this(10);     //here this keyword is used to call the parameterised constructor(written below) of same class
+    }
+    B(int a){                        //parameterised constructor
+        System.out.println(a);
+    }
+    public static void main(String args[]){
+        B b=new B();
+
+    }                                           //output is 10
+}  
