@@ -1,5 +1,5 @@
 //instance block 
-
+//No any keyword is required.
 //1st program
 
 class B{
